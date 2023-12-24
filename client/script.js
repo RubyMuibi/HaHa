@@ -1,14 +1,13 @@
-
 function generateMeme() {
   const btnGen = document.querySelector(".btnGen");
   const imgDisplay = document.querySelector(".imgDisplay");
 
-  const serverUrl = "http://localhost:4000"
+  const serverUrl = "https://haha-server.onrender.com";
 
   try {
     const handleBtnGen = async () => {
       imgDisplay.innerHTML = "";
-      const response = await axios.get(serverUrl)
+      const response = await axios.get(serverUrl);
       const responseData = response.data;
 
       responseData.forEach((item) => {
