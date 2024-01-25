@@ -2,13 +2,6 @@
 
 The LOLtastic Programming Meme Generator - HaHa is a funny meme generator regarding programming. 
 
-## How to Use
-1. Visit https://haha.rubym.xyz or clone this repository.
-
-## Features
-
-- **Random LOLs:** Hit the "Generate" button, sit back, and let HaHa surprise you with a random programming meme.
-
 ## How to Clone
 These instructions will help you get a copy of the project up and running on your local machine.
 
